@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/piovani/notificatio_quotation/coin"
+)
 
 func main() {
-	fmt.Println("AQUi")
+	fmt.Println(coin.GetQuotationDolar())
 }
